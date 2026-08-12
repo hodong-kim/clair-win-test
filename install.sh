@@ -1,3 +1,4 @@
+#!/bin/sh
 cd ~/projects/ada-clair
 
 mkdir -p ~/projects/clair-win-test
