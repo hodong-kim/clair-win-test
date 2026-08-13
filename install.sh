@@ -24,4 +24,4 @@ cp \
   build/deps/x86_64-w64-mingw32ucrt/release/libiconv/bin/*.dll \
   ~/projects/clair-win-test/
 
-ls -lh ~/projects/clair-win-test
+cd ~/projects/clair-win-test && git add . && git commit -mupdate && git push
