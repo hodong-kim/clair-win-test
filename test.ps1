@@ -6,6 +6,7 @@ $env:CLAIR_PROCESS_FIXTURE =
 
 $env:CLAIR_PROCESS_EXECUTION_BACKEND = "windows"
 
+git pull
 .\clair-unit-tests.exe --verbose
 
 $code = $LASTEXITCODE
