@@ -7,4 +7,7 @@ $env:CLAIR_PROCESS_FIXTURE =
 $env:CLAIR_PROCESS_EXECUTION_BACKEND = "windows"
 
 .\clair-unit-tests.exe --verbose
-$LASTEXITCODE
+
+$code = $LASTEXITCODE
+Write-Host "Exit code: $code"
+exit $code
